@@ -11,19 +11,22 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the nessasary things for Forge to be setup.
 
 
-version = "1.0"
-group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+version = "1.10.2-1.2.1"
+group= "com.jason.arche" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "arche"
 
-sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
+sourceCompatibility = targetCompatibility = "1.8" // Need this here so eclipse task generates correctly.
 compileJava {
-    sourceCompatibility = targetCompatibility = "1.6"
+    sourceCompatibility = targetCompatibility = "1.8"
 }
 
+
 minecraft {
-    version = "1.10.2-12.18.3.2254"
+    version = "1.10.2-12.18.3.2281"
     runDir = "run"
-    
+
+    replace '@VERSION@', project.version
+
     // the mappings can be changed at any time, and must be in the following format.
     // snapshot_YYYYMMDD   snapshot are built nightly.
     // stable_#            stables are built at the discretion of the MCP team.
@@ -32,6 +35,8 @@ minecraft {
     mappings = "snapshot_20161111"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
 }
+
+
 
 dependencies {
     // you may put jars on which you depend on in ./libs
@@ -57,6 +62,13 @@ dependencies {
 
 }
 
+jar {
+    exclude ("**/Thumbs.db")
+    exclude ("**/*.psd")
+    exclude ("**/desktop.ini")
+}
+
+
 processResources
 {
     // this will ensure that this task is redone when the versions change.
@@ -66,6 +78,8 @@ processResources
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
+
+
                 
         // replace version and mcversion
         expand 'version':project.version, 'mcversion':project.minecraft.version
@@ -74,5 +88,8 @@ processResources
     // copy everything else, thats not the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
+
     }
+
+
 }
