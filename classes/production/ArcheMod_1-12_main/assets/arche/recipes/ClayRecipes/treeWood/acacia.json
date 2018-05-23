@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "  W",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "arche:clayphistone"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "logWood"
+    }
+  },
+  "result": {
+    "item": "minecraft:log2",  //will be obscure in 1.13
+    "data": 0
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "arche:phistone",
+      "data": 32767
+    },
+    {
+      "item": "tconstruct:ingots",
+      "data": 1
+    }
+  ],
+  "result": {
+    "item": "tconstruct:ingots",
+    "data": 0,
+    "count": 1
+  }
+}
+

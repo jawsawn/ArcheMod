@@ -1,0 +1,57 @@
+[
+  {
+    "name": "PHISTONE",
+    "ingredient": [
+      {
+        "item": "arche:phistone",
+        "data": 32767
+      },
+      {
+        "item": "arche:miniumstone",
+        "data": 32767
+      },
+      {
+        "item": "arche:lminiumstone",
+        "data": 32767
+      }
+    ]
+  },
+  {
+    "name": "PHISTONE1",
+    "ingredient": [
+      {
+        "item": "arche:phistone",
+        "data": 32767
+      },
+      {
+        "item": "arche:miniumstone",
+        "data": 32767
+      }
+    ]
+  },
+  {
+    "name": "PHISTONE2",
+    "ingredient": [
+      {
+        "item": "arche:phistone",
+        "data": 32767
+      }
+    ]
+  },
+  {
+    "name": "CLAYSTONE",
+    "ingredient": [
+      {
+        "item": "arche:clayphistone"
+      }
+    ]
+  },
+  {
+    "name": "WHATS_THIS?",
+    "ingredient": [
+      {
+        "item": "minecraft:air"
+      }
+    ]
+  }
+]

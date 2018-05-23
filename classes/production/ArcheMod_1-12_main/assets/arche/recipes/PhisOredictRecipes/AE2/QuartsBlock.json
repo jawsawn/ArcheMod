@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "arche:phistone",
+      "data": 32767
+    },
+    {
+      "item": "appliedenergistics2:quartz_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:quartz_block",
+    "count": 1
+  }
+}
+

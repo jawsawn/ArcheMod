@@ -1,24 +1,22 @@
 package com.jawsawn.arche.tab;
 
-import com.jawsawn.arche.Arche;
-import com.jawsawn.arche.item.ModItems;
-import net.minecraft.block.Block;
+import com.jawsawn.arche.ModItems;
+import com.jawsawn.arche.item.PhiStone;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.Mod;
 
 /**
- * Created by Utku on 12.3.2017.
+ * Created by Jason on 1/24/2018.
  */
-public class CreativeTabArche extends CreativeTabs {
-
+public class CreativeTabArche extends CreativeTabs{
     public CreativeTabArche(int index, String label) {
         super(index, label);
     }
 
+
     @Override
-    public Item getTabIconItem() {
-        return ModItems.phis;
+    public ItemStack getTabIconItem() {
+        return new ItemStack(ModItems.phiStone);
     }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "arche:phistone",
+      "data": 32767
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotUranium"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotUranium"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}
+

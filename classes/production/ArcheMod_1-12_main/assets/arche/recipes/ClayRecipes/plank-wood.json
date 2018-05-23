@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "#CLAYSTONE"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "plankWood"
+    }
+  ],
+  "result": {
+    "item": "minecraft:log"
+  }
+}
+

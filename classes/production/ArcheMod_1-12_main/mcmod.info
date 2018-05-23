@@ -1,0 +1,16 @@
+[
+{
+  "modid": "arche",
+  "name": "Arche",
+  "description": "More Philosophers Stones",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Jason_Anaminus"],
+  "credits": "my mum",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

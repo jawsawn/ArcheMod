@@ -1,0 +1,21 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "arche:phistone",
+      "data": 32767
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "logWood"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "logWood"
+    }
+  ],
+  "result": {
+    "item": "minecraft:obsidian"
+  }
+}
+

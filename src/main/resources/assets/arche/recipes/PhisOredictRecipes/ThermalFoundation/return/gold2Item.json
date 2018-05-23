@@ -1,0 +1,30 @@
+{
+  "type": "forge:ore_shapeless",
+  "ingredients": [
+    {
+      "item": "arche:phistone",
+      "data": 32767
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotLead"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotLead"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotLead"
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotLead"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  }
+}
+

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "archemod",
+  "name": "Arche",
+  "description": "Useful Material Transmutation",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Jason_Anaminus"],
+  "credits": "man im not good with computer pls to help",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

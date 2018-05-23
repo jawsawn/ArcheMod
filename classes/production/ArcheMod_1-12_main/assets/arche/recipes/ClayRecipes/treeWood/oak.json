@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#W ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "arche:clayphistone"
+    },
+    "W": {
+      "type": "forge:ore_dict",
+      "ore": "logWood"
+    }
+  },
+  "result": {
+    "item": "minecraft:log",
+    "data": 0
+  }
+}
